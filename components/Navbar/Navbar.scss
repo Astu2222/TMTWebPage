@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0; 
+
+
+    .left{
+        img{
+            margin-left: 60px;
+            width: 10%;
+        }
+    }
+
+    .rigth{
+
+
+        Button{
+            margin: 15px;
+            background-color: rgb(138, 136, 136);
+            color: white;
+        }
+
+        Button:hover{
+            margin: 15px;
+            background-color: rgb(170, 86, 86);
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        p{
+            margin-right: 30px;
+        }
+
+ 
+    }
+}
