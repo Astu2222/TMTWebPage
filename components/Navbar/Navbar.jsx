@@ -1,7 +1,11 @@
 import React from 'react'
 import './Navbar.scss'
 import Link from 'next/link'
+import Image from 'next/image';
 import {Button, ButtonGroup} from "@nextui-org/button";
+
+
+
 
 const Navbar = () => {
   return (
@@ -10,38 +14,81 @@ const Navbar = () => {
 
         <div className="left">
 
-            <img src="./Logo/logo.jpg" alt="" />
-
+          <Link href={"/"}>  
+          <Image src="/Logo/logotipo.gif" alt="" width={300} height={300} />
+          </Link>
+            {/* <div className="text">
+              <h4 style={{color:"black"}}>Operadora Mayorista de Turismo</h4>
+              <h6 style={{color:"black",fontSize:"12px"}}>EVyT Leg. 14556 / Dip. 630</h6>
+            </div> */}
         </div>
 
 
         <div className="rigth">
 
-            <Link href="hoteles">
-            <Button>Hoteles</Button>
+          <div className="up">
+
+          <span class="material-symbols-outlined">call</span>
+          <p style={{fontSize:"14px"}}>11 - 5945 - 3041</p>
+            <h1 style={{margin:"10px 20px 10px 20px"}}>-</h1>
+          <span class="material-symbols-outlined">mail</span>
+          <p style={{fontSize:"14px"}} >dani@gmail.com</p>
+
+          
+
+        </div>
+
+
+
+
+          <div className="down">
+
+          <Link href="hoteles">
+              <div className='botonNavbar'>
+                <span style={{fontSize:"30px"}} class="material-symbols-outlined">hotel</span>
+                <p>Hoteles</p>
+              </div>
             </Link>
            
-            <Link href="hoteles">
-            <Button>Paquetes</Button>
+            <Link href="paquetes">
+              <div className='botonNavbar'>
+                <span style={{fontSize:"30px"}} class="material-symbols-outlined">card_travel</span>
+                <p>Paquetes</p>
+              </div>
             </Link>
 
-            <Link href="hoteles">
-            <Button>Vuelos</Button>
+            <Link href="vuelos">
+            <div className='botonNavbar'>
+                <span style={{fontSize:"30px"}} class="material-symbols-outlined">flight_takeoff</span>
+                <p>Vuelos</p>
+              </div>
             </Link>
 
-            <Link href="hoteles">
-            <Button>Ofertas</Button>
+            <Link href="ofertas">
+            <div className='botonNavbar'>
+                <span style={{fontSize:"30px"}} class="material-symbols-outlined">paid</span>
+                <p>Ofertas</p>
+              </div>
             </Link>
 
 
-            <Link href="hoteles">
-            <Button>Grupales</Button>
+            <Link href="grupales">
+            <div className='botonNavbar'>
+            <span style={{fontSize:"30px"}} class="material-symbols-outlined">diversity_3</span>
+                <p>Grupales</p>
+              </div>
             </Link>
 
-            <Link href="hoteles">
-            <Button>Circuitos</Button>
+            <Link href="circuitos">
+            <div className='botonNavbar'>
+                <span style={{fontSize:"30px"}} class="material-symbols-outlined">signpost</span>
+                <p>Circuitos</p>
+              </div>
             </Link>
 
+
+          </div>
+           
         </div>
 
     </div>

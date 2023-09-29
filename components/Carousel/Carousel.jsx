@@ -22,35 +22,34 @@ const Carousel = () => {
       spaceBetween={50}
       slidesPerView={1}
       height={"500px"}
-      navigation={true} // Habilita la navegación
-      pagination={{ clickable: true }} // Habilita la paginación
+
       onSwiper={(swiper)=> console.log(swiper)}
       onSlideChange={()=> console.log('slide change')}
 
       >
 
           <SwiperSlide className='single_testimonial1' style={{display:"flex",justifyContent:"center", alignItems:"end"}}>
-            <div className="contenido">
-            <h3>Slide-1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            </div>
+          <div className="contenido">
+            
+          </div>
           </SwiperSlide>
 
           <SwiperSlide className='single_testimonial2' style={{display:"flex",justifyContent:"center", alignItems:"end"}}>
           <div className="contenido">
-            <h3>Slide-2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+
           </div>
           </SwiperSlide>
 
-          <SwiperSlide className='single_testimonial'>
-            <h3>Slide-3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+          <SwiperSlide className='single_testimonial3'>
+          <div className="contenido">
+              <h1> prueba de contenido html</h1>
+          </div>
           </SwiperSlide>
 
-          <SwiperSlide className='single_testimonial'>
-            <h3>Slide-4</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+          <SwiperSlide className='single_testimonial4'>
+          <div className="contenido">
+
+          </div>
           </SwiperSlide>
           
       </Swiper>

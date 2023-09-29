@@ -9,9 +9,17 @@
     position: sticky;
     top: 0; 
     z-index: 100;
+    font-family: 'Onest', sans-serif;
 
 
     .left{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: center;
+        
         img{
             margin-left: 60px;
             width: 10%;
@@ -19,28 +27,54 @@
     }
 
     .rigth{
-
-
-        Button{
-            margin: 15px;
-            background-color: rgb(138, 136, 136);
-            color: white;
-        }
-
-        Button:hover{
-            margin: 15px;
-            background-color: rgb(170, 86, 86);
-        }
-
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        margin: 30px;
 
-        
-
-        p{
-            margin-right: 30px;
+        .up{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            color: rgb(184, 11, 11);
+            text-align: center;
         }
+
+
+        .down{
+
+            display: flex;
+
+            .botonNavbar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                color: rgb(207, 24, 24);
+                padding: 20px;
+        
+                p{
+                    margin: 0;
+                }
+        
+               }
+        
+               .botonNavbar:hover {
+                color: rgb(160, 0, 0); /* Cambia el color del texto a negro cuando el mouse está sobre el elemento */
+                background-color: rgb(199, 199, 199);
+                padding: 20px;
+                border-radius: 20px;
+              }
+        
+                
+        
+                p{
+                    margin-right: 30px;
+                }
+
+        }
+
+      
 
  
     }

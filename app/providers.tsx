@@ -15,10 +15,8 @@ export interface ProvidersProps {
 export function Providers({ children, themeProps }: ProvidersProps) {
 	return (
 		<NextUIProvider>
-			<NextThemesProvider {...themeProps}>
-				<Navbar/>
+			<NextThemesProvider>
 					{children}
-				<Footer/>
 			</NextThemesProvider>
 		</NextUIProvider>
 	);
