@@ -1,7 +1,5 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
@@ -25,7 +23,7 @@ export default function RootLayout({
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 			<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
 
-			<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" async ></script>
 			</head>
 
 			<body>
