@@ -21,7 +21,7 @@ export default function Home() {
 
 	useEffect(() => {
 		// Realizar la solicitud a la API y almacenar los datos en el estado
-		fetch('http://localhost:3000/api/lugares')
+		fetch('https://tmt-web-page-bmlil17l8-astu2222.vercel.app/api/lugares')
 		  .then((response) => response.json())
 		  .then((apiData) => {
 			setData(apiData); // Almacenar los datos en el estado
