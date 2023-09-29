@@ -16,9 +16,7 @@ export function Providers({ children, themeProps }: ProvidersProps) {
 	return (
 		<NextUIProvider>
 			<NextThemesProvider {...themeProps}>
-				<Navbar/>
 					{children}
-				<Footer/>
 			</NextThemesProvider>
 		</NextUIProvider>
 	);
