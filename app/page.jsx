@@ -38,7 +38,7 @@ return (
 
 		<Carousel/>
 
-		<h1 style={{color:"black", fontSize:"30px"}}>Embárcate en una aventura y explora estos lugares únicos:</h1>
+		<h1 style={{color:"black", fontSize:"30px"}}>Embárcate a la aventura y explora estos lugares únicos:</h1>
 
 			<div className="lugares">
 				{data.map((item, index) => (
@@ -61,7 +61,7 @@ return (
         src= "https://images.pexels.com/photos/573122/pexels-photo-573122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       />
     </Card>
-    <Card className="col-span-12 sm:col-span-4 h-[300px]">
+    <Card className="col-span-12 sm:col-span-4 h-[300px] hover:scale-115 z-10">
       <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Plant a tree</p>
         <h4 className="text-white font-medium text-large">Contribute to the planet</h4>
@@ -88,7 +88,7 @@ return (
     <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
       <CardHeader className="absolute z-10 top-1 flex-col items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">New</p>
-        <h4 className="text-black font-medium text-2xl">Acme camera</h4>
+        <h4 className="text-white font-medium text-2xl">Acme camera</h4>
       </CardHeader>
       <Image
         removeWrapper
@@ -135,16 +135,7 @@ return (
   </div>
 
 
-
-
-
-
-
-
-
-
-
-	</div>
+</div>
 
 	
 

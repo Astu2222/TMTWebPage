@@ -42,7 +42,7 @@ const Carousel = () => {
 
           <SwiperSlide className='single_testimonial3'>
           <div className="contenido">
-              <h1> DANIIIIIIII IDOLOOOO</h1>
+              <h1> prueba de contenido html</h1>
           </div>
           </SwiperSlide>
 

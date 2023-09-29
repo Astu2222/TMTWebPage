@@ -18,9 +18,13 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning>
 
 			<head>
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com"/>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700&display=swap" />
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 			<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+
 			<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 			</head>
 
