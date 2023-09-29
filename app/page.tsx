@@ -7,7 +7,7 @@ import { Code } from "@nextui-org/code"
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import {Button, ButtonGroup} from "@nextui-org/button";
-import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
+import {Card, CardHeader, CardBody} from "@nextui-org/card";
 import {Image} from "@nextui-org/image";
 import Carousel from '../components/Carousel/Carousel'
 
