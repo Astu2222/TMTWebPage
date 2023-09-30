@@ -6,13 +6,11 @@ const Footer = () => {
     <div className="footer">
       <div className="footerUp">
         <div className="left">
-          <h3>Acerca de nosotros</h3>
-          <p>
-            TMT OPERADORA MAYORISTA DE TURISMO - EVT Leg. 17971 /
-            EX-2021-86449268- -APN-DRAV#SGP
-          </p>
-          <p>RAZON SOCIAL: GIUNTA ALEJANDRO GONZALO </p>
-          <p>Cuit: 20-30057153-1</p>
+
+            <h3>Acerca de nosotres</h3>
+            <p>TRIEX VIAJES Y TURISMO  - EVT Leg. 17971 /  EX-2021-86449268- -APN-DRAV#SGP</p>
+            <p>RAZON SOCIAL:  TRAVELFAP S.A.S.</p>
+            <p>Cuit: 30-71673940-2</p>
 
           <p>
             Para ver la disposición habilitante haga
