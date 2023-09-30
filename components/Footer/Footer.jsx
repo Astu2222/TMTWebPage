@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.scss";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -39,8 +40,8 @@ const Footer = () => {
 
           <p>
             Para ver la disposición habilitante haga
-            <a href="#">
-              {" "}
+            <a href="" target="_banck">
+         
               <h4>click aquí</h4>
             </a>
           </p>
