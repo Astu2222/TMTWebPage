@@ -29,10 +29,10 @@ const Navbar = () => {
           <div className="up">
 
           <span class="material-symbols-outlined">call</span>
-          <p style={{fontSize:"14px"}}>11 - 5945 - 3041</p>
+          <p style={{fontSize:"14px"}}>+54 9 261 6347453</p>
             <h1 style={{margin:"10px 20px 10px 20px"}}>-</h1>
           <span class="material-symbols-outlined">mail</span>
-          <p style={{fontSize:"14px"}} >dani@gmail.com</p>
+          <p style={{fontSize:"14px"}} >alejandro@tmtoperadora.com.ar</p>
 
           
 
