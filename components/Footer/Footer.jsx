@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div className="left">
 
-            <h3>Acerca de nosotros</h3>
+            <h3>Acerca de nosotroses</h3>
             <p>TRIEX VIAJES Y TURISMO  - EVT Leg. 17971 /  EX-2021-86449268- -APN-DRAV#SGP</p>
             <p>RAZON SOCIAL:  TRAVELFAP S.A.S.</p>
             <p>Cuit: 30-71673940-2</p>
