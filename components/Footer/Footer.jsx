@@ -14,10 +14,10 @@ const Footer = () => {
 
           <p>
             Para ver la disposición habilitante haga
-            <a href="#">
-              <h4>click aquí</h4>
-            </a>
           </p>
+
+          <h4>click aquí</h4>
+
         </div>
 
         <div className="rigth">
@@ -38,11 +38,10 @@ const Footer = () => {
 
           <p>
             Para ver la disposición habilitante haga
-            <a href="" target="_banck">
-         
-              <h4>click aquí</h4>
-            </a>
           </p>
+
+          <h4>click aquí</h4>
+          
         </div>
       </div>
 
