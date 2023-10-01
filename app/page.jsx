@@ -11,6 +11,7 @@ import Carousel from '../components/Carousel/Carousel'
 import CardUi from '../components/Card/CardUi'
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
 import { useEffect, useState } from "react";
+import {Spinner} from "@nextui-org/react";
 
 
 
@@ -18,16 +19,22 @@ import { useEffect, useState } from "react";
 export default function Home() {
 
 	const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
 
 	useEffect(() => {
 		// Realizar la solicitud a la API y almacenar los datos en el estado
-		fetch('https://tmt-web-page-bmlil17l8-astu2222.vercel.app/api/lugares')
+		fetch('https://tmt-web-page-a50rbboul-astu2222.vercel.app/api/lugares')
 		  .then((response) => response.json())
 		  .then((apiData) => {
 			setData(apiData); // Almacenar los datos en el estado
+      setLoading(false); // Cambiar el estado de carga a false cuando los datos se han cargado
+
 		  })
 		  .catch((error) => {
 			console.error('Error al obtener datos de la API', error);
+      setLoading(false); // Cambiar el estado de carga a false en caso de error
+
 		  });
 	  }, []);
 
@@ -37,13 +44,23 @@ return (
 
 		<Carousel/>
 
-		<h1 style={{color:"black", fontSize:"30px"}}>Embárcate a la aventura y explora estos lugares únicos:</h1>
 
+    { loading ? (<>
+    
+      <Spinner className="m-40"/>
+    
+    </>) : (<>
+    
+      <h1 className="fs-40 text-black text-2xl m-10	">Embárcate a la aventura y explora estos lugares únicos:</h1>
 			<div className="lugares">
 				{data.map((item, index) => (
 				<CardUi key={index} data={item} />
 				))}
 			</div>
+    
+    </>)}
+
+
 
 
 

@@ -5,7 +5,12 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
+
       <div className="footerUp">
+
+      <img src="/public/Logo/logo.jpg" alt="" />
+            
+
         <div className="left">
 
             <h3>Acerca de nosotres</h3>
@@ -13,14 +18,10 @@ const Footer = () => {
             <p>RAZON SOCIAL:  TRAVELFAP S.A.S.</p>
             <p>Cuit: 30-71673940-2</p>
 
-          <p>
-            Para ver la disposición habilitante haga
-            <a href="/public/vercel.svg" target="_blank">Abrir en nueva página  <h4>click aquí</h4></a>
-            
-            
-          </p>
+          <p>Para ver la disposición habilitante haga</p>
 
-          <h4>click aquí</h4>
+           
+          <a href="/nic.pdf" target="_blank">CLICK AQUI</a>
 
         </div>
 
@@ -44,7 +45,7 @@ const Footer = () => {
             Para ver la disposición habilitante haga
           </p>
 
-          <h4>click aquí</h4>
+          <a href="/nic.pdf" target="_blank">CLICK AQUI</a>
           
         </div>
       </div>
