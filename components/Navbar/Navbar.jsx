@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="left">
 
 <Link href={"/"}>  
-<Image src="/Logo/logotipo.gif" alt="" width={300} height={300} />
+<img src="/Logo/logotipo.gif" alt="" />
 </Link>
   {/* <div className="text">
     <h4 style={{color:"black"}}>Operadora Mayorista de Turismo</h4>

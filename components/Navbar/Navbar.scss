@@ -19,16 +19,15 @@ body{
 
     .navbarTop{
         display: flex;
-        background: rgb(122,5,5);
-        background: linear-gradient(90deg, rgba(122,5,5,1) 0%, rgba(144,10,10,1) 50%, rgba(122,5,5,1) 100%);
+        background-color: rgb(122, 38, 38);
         color: rgb(209, 209, 209);
         width: 100%;
         padding: 0;
         margin: 0;
         justify-content: end;
         align-items: end;
-        padding: 2px 65px 2px 4px;
-        height: 2.8vh;
+        padding: 4px 105px 4px 4px;
+        height: 28px;
         
 
         .telefono{
@@ -81,7 +80,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 12vh;
+        height: 100px;
 
 
 
@@ -132,24 +131,21 @@ body{
                     border-radius: 200px;
                     margin: 5px;
     
-    
-    
                     p{
+                      font-size: 13px;
                         margin: 0;
                     }
             
                    }
             
                    .botonNavbar:hover {
-                    color: rgb(209, 3, 3); /* Cambia el color del texto a negro cuando el mouse está sobre el elemento */
+                    color: rgba(209, 3, 3, 0.747); /* Cambia el color del texto a negro cuando el mouse está sobre el elemento */
                     transition: color 0.3s, background-color 0.3s; /* Agrega una transición suave */
                     padding: 10px 15px 10px 15px;
                     margin: 5px;
                     border-radius: 200px;
     
                   }
-            
-                    
             
                     p{
                         margin-right: 30px;
@@ -219,7 +215,7 @@ body{
           .down {
             .botonNavbar {
               padding: 5px 10px; /* Ajusta el padding en pantallas pequeñas */
-              font-size: 12px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+              font-size: 10px; /* Ajusta el tamaño de fuente en pantallas pequeñas */
             }
   
             .botonNavbar:hover {

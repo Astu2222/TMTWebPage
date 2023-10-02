@@ -7,11 +7,11 @@ import { Code } from "@nextui-org/code"
 import { button as buttonStyles } from "@nextui-org/theme";
 import {Button, ButtonGroup} from "@nextui-org/button";
 import {Image} from "@nextui-org/image";
-import Carousel from '../components/Carousel/Carousel'
 import CardUi from '../components/Card/CardUi'
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
 import { useEffect, useState } from "react";
 import {Spinner} from "@nextui-org/react";
+import Carrusel from "@/components/Carousel/Carrusel";
 
 
 
@@ -42,8 +42,7 @@ export default function Home() {
 return (
 	<div className="home">
 
-		<Carousel/>
-
+    <Carrusel/>
 
     { loading ? (<>
     
